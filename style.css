@@ -173,13 +173,14 @@ body {
     border-radius: 0;
     display: inline-flex;
     align-items: center;
+    cursor: pointer;
 }
 
-.secure-checkout-button::before {
-    content: "\f07a";
-    font-family: "Font Awesome 5 Free";
-    font-size: 17px;
+.secure-checkout-button-icon {
+    font-size: 15px;
     margin-right: 8px;
+    position: relative;
+    bottom: 2px;
 }
 
 .svg-img {
