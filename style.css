@@ -1,13 +1,105 @@
-
-
 body {
     font-family: sans-serif;
     margin: 0;
     background-color: #f8f8f8;
 }
 
-.main {
-    
+.header {
+    background-color: #fff;
+    color: #717171;
+    letter-spacing: 0.5px;
+    font-size: 13px;
+    padding-top: 10px;
+    border-bottom: 3px solid #e62263;
+}
+
+.header-area-first-row {
+    width: 1220px;
+    margin: auto;
+    margin-bottom: 22px;
+}
+
+.header-area-second-row {
+    width: 1250px;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.header-area-third-row {
+    width: 1250px;
+    margin: auto;
+    background: #f8f8f8;
+    border: 1px solid #e5e5e5;
+    height: 55px;
+    justify-content: center;
+}
+
+.header-area-third-row-space {
+    padding-left: 18px;
+    position: relative;
+    top: 20px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 12px;
+}
+
+.header-area-third-row-text {
+    padding-right: 18px;
+    border-right: 1px solid #ddd;
+}
+
+.header-area-top-right-items {
+    padding: 9.5px;
+}
+
+.header-input-text {
+    height: 25px;
+    width: 269px;
+    font-size: 13px!important;
+}
+
+.header-button {
+    white-space: break-spaces;
+    width: 222px;
+    border: 1px solid #e5e5e5!important;
+    height: 42px!important;
+}
+
+.header-button-icon {
+    background-color: #fff;
+    height: 40px;
+    position: relative;
+    top: 0px;
+    right: 21px;
+    width: 55px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5;
+    border-right: 0;
+    margin-right: 0!important;
+}
+
+.header-button-text {
+    font-size: 13px;
+}
+
+.page-directory {
+    width: 1250px;
+    margin: auto;
+    font-size: 11px;
+    color: #666;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    padding: 17px 0 25px;
+}
+
+.page-directory > span {
+    margin-right: 15px;
+}
+
+.page-directory-current {
+    color: #000000!important;
 }
 
 .product-view {
@@ -17,7 +109,7 @@ body {
     overflow: hidden;
     padding: 25px 10px;
     position: relative;
-    width: 1260px;
+    width: 1230px;
     margin: auto;
 }
 
@@ -202,6 +294,8 @@ body {
     color: #000000;
     margin: auto;
     text-align: center;
+    border-top: 1px solid #d8d8d8;
+    margin-top: 50px;
 }
 
 .footer-item {
@@ -217,4 +311,8 @@ body {
 
 .flex {
     display: flex;
+}
+
+.flex-space-between {
+    justify-content: space-between;
 }
