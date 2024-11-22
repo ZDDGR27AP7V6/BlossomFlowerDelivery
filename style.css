@@ -2,10 +2,22 @@
 
 body {
     font-family: sans-serif;
+    margin: 0;
+    background-color: #f8f8f8;
 }
 
-.product-container {
-    width: 65.625%;
+.main {
+    
+}
+
+.product-view {
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    margin: 0 15px 25px;
+    overflow: hidden;
+    padding: 25px 10px;
+    position: relative;
+    width: 1260px;
     margin: auto;
 }
 
@@ -181,6 +193,19 @@ body {
     margin-right: 8px;
     position: relative;
     bottom: 2px;
+}
+
+.footer {
+    padding: 23px 10px;
+    font-size: 10px;
+    letter-spacing: 0.3px;
+    color: #000000;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-item {
+    padding: 0 10px;
 }
 
 .svg-img {
