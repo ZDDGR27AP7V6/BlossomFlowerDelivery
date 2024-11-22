@@ -1,3 +1,5 @@
+
+
 body {
     font-family: sans-serif;
 }
@@ -157,6 +159,27 @@ body {
     font-size: 14px;
     position: relative;
     bottom: 3px;
+}
+
+.secure-checkout-button {
+    background-color: #e62263;
+    color: #fff;
+    border: 1px solid #e62263;
+    height: 35px;
+    font-size: 16px;
+    padding: 10px 20px;
+    font-weight: 700;
+    margin-left: 8px;
+    border-radius: 0;
+    display: inline-flex;
+    align-items: center;
+}
+
+.secure-checkout-button::before {
+    content: "\f07a";
+    font-family: "Font Awesome 5 Free";
+    font-size: 17px;
+    margin-right: 8px;
 }
 
 .svg-img {
